@@ -13,7 +13,24 @@ $ python3 abistorgen.py path/to/json/files > path/to/abi_stor.js
 ```
 
 ```bash
-$ node -e "abi = require('path/to/abi_stor.js'); console.log(abi.Core)"
+$ node -e "abi = require('path/to/abi_stor.js'); console.log(abi.SatFix)"
+[ { constant: true,
+    inputs: [],
+    name: 'latitude',
+    outputs: [ [Object] ],
+    type: 'function' },
+  { constant: true,
+    inputs: [],
+    name: 'longitude',
+    outputs: [ [Object] ],
+    type: 'function' },
+  { constant: true,
+    inputs: [],
+    name: 'altitude',
+    outputs: [ [Object] ],
+    type: 'function' },
+  { inputs: [ [Object], [Object], [Object] ],
+    type: 'constructor' } ]
 ```
 
 ## daoinspect.js
