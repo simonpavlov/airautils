@@ -1,6 +1,6 @@
 # This repo contains some utils for [airaCore](https://github.com/airalab/core)
 
-+ ## abistorgen.py
+## abistorgen.py
 
 This util create abi storage from json files.
 Script recursively passed him the directory and display the data in the
@@ -16,7 +16,7 @@ $ python3 abistorgen.py path/to/json/files > path/to/abi_stor.js
 $ node -e "abi = require('path/to/abi_stor.js'); console.log(abi.Core)"
 ```
 
-+ ## daoinspect.js
+## daoinspect.js
 
 This util display main data of [Core](https://github.com/airalab/core/blob/master/sol/dao/Core.sol):
 + address
@@ -33,7 +33,7 @@ $ node ./daoinspect.js dao_address
 ```
 **Attention**: depends on `startup.js`
 
-+ ## miningSatFix.js
+## miningSatFix.js
 
 This util successively mine SatFix contract using
 [SatFixBuilder](https://github.com/simonpavlov/contracts/blob/master/builder/BuilderSatFix.sol)
@@ -45,7 +45,7 @@ $ node ./miningSatFixes.js path/to/file.json
 ```
 **Attention**: depends on `startup.js`
 
-+ ## startup.js
+## startup.js
 
 This is simple script for initialize `web3` and `abi_stor` for `nodejs`.
 
