@@ -7,7 +7,7 @@ web3.setProvider(new web3.providers.HttpProvider("http://localhost:8545"));
 var eth = web3.eth;
 
 module.exports = {
-	web3: web3,
-	eth: eth,
-	abi: abi_stor,
+    web3: web3,
+    eth: eth,
+    abi: abi_stor
 }
